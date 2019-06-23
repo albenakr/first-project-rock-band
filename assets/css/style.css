@@ -19,7 +19,8 @@ header {
 }
 
 /* About */
-.about-section {
+
+.about-overview {
     text-align: center;
     padding: 100px;
 }
@@ -48,6 +49,19 @@ header {
 }
 
 
+/* Music */
+
+.music-item {
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 50px;
+    margin: 40px;
+    text-align: center;
+    margin-left: 100px;
+}
 
 /* Footer - Social Links */
 
