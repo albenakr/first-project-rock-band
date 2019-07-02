@@ -24,16 +24,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item mx-auto">
-          <a class="nav-link active" href="#">About</span></a>
+          <a class="nav-link active" href="#about">About</span></a>
         </li>
         <li class="nav-item mx-auto">
-          <a class="nav-link" href="#">Music</a>
+          <a class="nav-link" href="#music">Music</a>
         </li>
         <li class="nav-item mx-auto">
-          <a class="nav-link" href="#">Albums</a>
+          <a class="nav-link" href="#albums">Albums</a>
         </li>
         <li class="nav-item mx-auto">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -44,7 +44,7 @@
   </div>
 
   <!–– About ––>
-  <section class="container-fluid about">
+  <section class="container-fluid about" id="about">
 
     <div class="row">
       <div class="col-12">
@@ -75,116 +75,117 @@
   </section>
 
   <!––Music ––>
-  <div class="container-fluid music">
+  <section id="music">
+    <div class="container-fluid music">
 
-    <div class="row">
-      <div class="col-12">
-        <h1>Music</h1>
+      <div class="row">
+        <div class="col-12">
+          <h1>Music</h1>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-6 col-lg-3 ">
-        <a href="#" target="_blank">
-      <i class="fa fa-play music-item" aria-hidden="true">Blue Bird</i>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 music-item">
+          <a href="assets/audio/SteppingStone.mp3" target="_blank">
+      <i class="fa fa-play " aria-hidden="true"><br>Stepping Stone</i>
       <span class="sr-only">Play</span>
-         </a>
-      </div>
-      <div class="col-md-6 col-lg-3 ">
-        <a href="#" target="_blank">
-      <i class="fa fa-download music-item" aria-hidden="true">Song 2</i>
-      <span class="sr-only">Download</span>
           </a>
-      </div>
-      <div class="col-md-6 col-lg-3 ">
-        <a href="#" target="_blank">
-      <i class="fa fa-download music-item" aria-hidden="true">Song 3</i>
-      <span class="sr-only">Download</span>
+        </div>
+        <div class="col-md-6 col-lg-3 music-item">
+          <a href="assets/audio/Clarksville.mp3" target="_blank">
+      <i class="fa fa-play " aria-hidden="true"> <br>Clarksville</i>
+      <span class="sr-only">Play</span>
           </a>
-      </div>
-      <div class="col-md-6 col-lg-3 ">
-        <a href="#" target="_blank">
-      <i class="fa fa-download music-item" aria-hidden="true">Song 4</i>
-      <span class="sr-only">Download</span>
+        </div>
+        <div class="col-md-6 col-lg-3 music-item">
+          <a href="assets/audio/DaydreamBeliever.mp3" target="_blank">
+      <i class="fa fa-play " aria-hidden="true"><br>Daydream Believer</i>
+      <span class="sr-only">Play</span>
           </a>
+        </div>
+        <div class="col-md-6 col-lg-3 music-item">
+          <a href="assets/audio/ImABeliever.mp3" target="_blank">
+      <i class="fa fa-play " aria-hidden="true"><br>I'm A Believer</i>
+      <span class="sr-only">Play</span>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!––Albums ––>
-  <div class="container-fluid albums">
-    <div class="row">
-      <div class="col-12">
-        <h1>Albums</h1>
+  <section id="albums">
+    <div class="container-fluid albums">
+      <div class="row">
+        <div class="col-12">
+          <h1>Albums</h1>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
 
-      <div class="col-12 col-sm-6 album-cover">
-        <img src="assets/images/album.jpg" alt="More Greatest Hits"></img>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Learn More
-</button>
+      <div class="container">
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">More Greatest Hits</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div class="col-6 album-cover">
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" id="greatest-hits-album">
+          More Greatest Hits
+        </button>
+
+          <!-- Modal -->
+          <div class="modal fade modal-size" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">More Greatest Hits - Tracks List</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-              </div>
-              <div class="modal-body">
-                1. Pink bird <br> 2.Crazy Monkees <br> 3. Midnight pain <br> 4. Five stages of grief <br> 5. Walk down the road <br>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-body">
+                  1. Pink bird <br> 2.Crazy Monkees <br> 3. Midnight pain <br> 4. Five stages of grief <br> 5. Walk down the road <br>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 col-sm-6 album-cover">
-        <img src="assets/images/album2.jpg" alt="The Very Best of the Monkeys"></img>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Learn More
+        <div class="col-6 album-cover">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" id="best-of-album">
+  
 </button>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">The Very Best of the Monkeys</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <!-- Modal -->
+          <div class="modal fade modal-size" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">The Very Best of the Monkeys</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-              </div>
-              <div class="modal-body">
-                1. Pink Martini <br> 2.Going crazy <br> 3. Hope for the best <br> 4. Another day <br> 5. Tomorrow might be better <br>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-body">
+                  1. Pink Martini <br> 2.Going crazy <br> 3. Hope for the best <br> 4. Another day <br> 5. Tomorrow might be better <br>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-
     </div>
-  </div>
-
+  </section>
 
   <!––Contact ––>
-  <div class="container-fluid contact">
+  <div class="container-fluid contact" id="contact">
     <div class="row">
       <div class="col-12">
         <h1>Contact</h1>
@@ -201,22 +202,22 @@
           <div class="row ">
             <div class="col">
               <label for="exampleFormControlInput1">First Name</label>
-              <input type="text" class="form-control" placeholder="First name">
+              <input type="text" class="form-control" placeholder="First name" required>
             </div>
             <div class="col">
               <label for="exampleFormControlInput1">Last Name</label>
-              <input type="text" class="form-control" placeholder="Last name">
+              <input type="text" class="form-control" placeholder="Last name" required>
             </div>
           </div>
 
           <div class="form-group ">
             <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
           </div>
 
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Your Request</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
