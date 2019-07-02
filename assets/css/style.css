@@ -51,15 +51,37 @@
 
 /* Music */
 
+
+
 .music-item {
     height: 150px;
     width: 150px;
     border-radius: 15%;
-    background-color: #fafafa;
     text-align: center;
     padding: 50px;
     margin: 40px;
     text-align: center;
+    background-color: #b3c3c3;
+    text-decoration: none;
+    box-sizing: content-box;
+    display: block;
+}
+
+.music-item a {
+    display: block;
+    text-decoration: none;
+}
+
+.music-item a i {
+    display: block;
+    color: #fafafa;
+    text-decoration: none;
+
+}
+
+.fa-play {
+    height: 20px;
+    width: 20px
 }
 
 /* Contact */
@@ -69,17 +91,52 @@
     padding: 50px 25px 50px 25px;
 }
 
+.contact {
+    padding: 25px 15px 25px 15px;
+}
+
 /* Albums */
 
-.albums {
+#albums {
     background-color: #fafafa;
+    margin: 0;
     padding: 25px;
-
+    
 }
 
-.album-cover {
-    margin: 15%;
+.album-covers {
+    text-align: center;
 }
+
+
+#button-modal-album {
+    background: url("../images/album2.jpg");
+    height: 160px;
+    width: 160px;
+    opacity: 0.7;
+    font-weight: 500;
+    margin: 25px;
+  
+}
+
+#button-modal-album:hover {
+    opacity: 1;
+}
+
+#button-modal-album2 {
+    background: url("../images/album.jpg");
+    height: 160px;
+    width: 160px;
+    opacity: 0.7;
+    font-weight: 500;
+    margin: 25px;
+  
+}
+
+#button-modal-album2:hover {
+    opacity: 1;
+}
+
 
 /* Footer - Social Links */
 
@@ -114,9 +171,3 @@ footer {
 
 
 /* Media Queries */
-
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .contact-pitch {
-        padding-top: 120px;
-    }
