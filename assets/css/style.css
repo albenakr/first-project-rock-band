@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700&display=swap');
 
 
-/* Nav and Cover photo */
+/* Nav */
+
+/* Cover photo */
 
 .cover-photo {
     background: url("../images/monkees.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
     height: 400px;
     margin-top: 50px;
 }
 
 /* About */
 
-.about {
-    display: inline-block;
+#about {
+    width: 100vw;
+    margin: 0;
+    padding: 25px;
 }
 
 .about-overview {
@@ -27,6 +34,7 @@
     display: inline-block;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .image-circle {
@@ -43,7 +51,7 @@
 .profile-photo {
     width: auto;
     height: 100%;
-    margin-left: -50px;
+    margin-left: -53px;
 }
 
 
@@ -51,31 +59,42 @@
 
 /* Music */
 
+#music {
+    width: 100vw;
+    margin: 0;
+    padding: 25px;
+    background-color: grey;
+}
 
+.music-links {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
 
 .music-item {
-    height: 150px;
-    width: 150px;
-    border-radius: 15%;
-    text-align: center;
-    padding: 50px;
-    margin: 40px;
-    text-align: center;
     background-color: #b3c3c3;
-    text-decoration: none;
-    box-sizing: content-box;
-    display: block;
+    min-height: 135px;
+    min-width: 135px;
+    max-height: 135px;
+    max-width: 135px;
+    text-align: center;
+    padding: 0;
+    margin: 25px;
+    border-radius: 4%;
 }
 
 .music-item a {
     display: block;
     text-decoration: none;
+    text-align: center;
 }
 
 .music-item a i {
-    display: block;
     color: #fafafa;
     text-decoration: none;
+    text-align: center;
 
 }
 
@@ -85,6 +104,12 @@
 }
 
 /* Contact */
+
+#contact {
+    width: 100vw;
+    margin: 0;
+    padding: 25px;
+}
 
 .contact-pitch {
     font-size: 22px;
@@ -101,7 +126,7 @@
     background-color: #fafafa;
     margin: 0;
     padding: 25px;
-    
+
 }
 
 .album-covers {
@@ -116,7 +141,7 @@
     opacity: 0.7;
     font-weight: 500;
     margin: 25px;
-  
+
 }
 
 #button-modal-album:hover {
@@ -130,7 +155,7 @@
     opacity: 0.7;
     font-weight: 500;
     margin: 25px;
-  
+
 }
 
 #button-modal-album2:hover {
