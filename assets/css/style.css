@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700&display=swap');
 
+/* Colors */
+
+.cyan-background-color {
+    background-color: #00b3b3;
+}
+
+.input-color {
+    background-color: #f2f2f2;
+}
+
 
 /* Fonts */
 
@@ -12,29 +22,35 @@
 .text-font-style {
     font-family: 'Roboto+Condensed', sans-serif;
     color: #596065;
+    font-weight: 600;
 }
 
+
+h1 {
+    text-align: center;
+}
 
 
 /* Nav */
 
 .navbar-container {
     width: 100vw;
-    background-color: transparent;
-    
+    background-color: #00b3b3;
 }
 
-.navbar {
-    
-    
+.nav-item {
+    padding-right: 20px;
 }
+
 
 .navbar-nav li a {
     color: #000;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    
+    font-size: 25px;
 }
+
+
 
 /* Cover photo */
 
@@ -55,14 +71,15 @@
 #about {
     width: 100vw;
     margin: 0;
-    padding: 55px 25px 25px 25px;
-    
+    padding: 55px 55px 45px 55px;
+
 }
 
 .about-overview {
     text-align: center;
-    padding: 55px 10px 10px 10px;
-    
+    padding: 15px 10px 10px 10px;
+
+
 }
 
 .profile-photos-list {
@@ -91,7 +108,6 @@
 
 
 
-
 /* Music */
 
 #music {
@@ -99,7 +115,7 @@
     margin: 0;
     padding: 55px 25px 25px 25px;
     background-color: grey;
-    
+
 }
 
 .music-links {
@@ -139,36 +155,21 @@
     width: 20px
 }
 
-/* Contact */
-
-#contact {
-    width: 100vw;
-    margin: 0;
-    padding: 55px 25px 25px 25px;
-   
-}
-
-.contact-pitch {
-    font-size: 22px;
-    padding: 50px 25px 50px 25px;
-}
-
-.contact {
-    padding: 25px 15px 25px 15px;
-}
 
 /* Albums */
 
 #albums {
-    background-color: #fafafa;
     margin: 0;
     padding: 55px 25px 25px 25px;
+    background-color: #f2f2f2;
+    min-height: 500px;
 
 }
 
 .album-covers {
     text-align: center;
-    
+    padding-top: 45px;
+
 }
 
 
@@ -203,6 +204,32 @@
 }
 
 
+/* Contact */
+
+#contact {
+    width: 100vw;
+    margin: 0;
+    padding: 55px 55px 45px 55px;
+
+}
+
+.contact-pitch {
+    font-size: 22px;
+    padding: 50px 25px 50px 25px;
+}
+
+.btn-contact {
+    float: right;
+    color: #00b3b3;
+    background-color: #596065;
+}
+
+.btn-contact:hover {
+    color: #f2f2f2;
+    background-color: #43484B;
+}
+
+
 /* Footer - Social Links */
 
 footer {
@@ -210,6 +237,7 @@ footer {
     min-height: 130px;
     text-align: center;
     padding-top: 40px;
+    margin: 0px;
 }
 
 
@@ -237,3 +265,14 @@ footer {
 
 /* Media Queries */
 
+@media (min-width: 768px) {
+    .about-overview {
+        text-align: center;
+        padding: 75px 10px 10px 10px;
+    }
+    
+    h1 {
+        text-align: left;
+    }
+
+}
