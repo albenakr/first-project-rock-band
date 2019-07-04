@@ -32,6 +32,8 @@ The page was tested through continuously trying out all the functionality, as sp
 
 The detailed user scenarios can be seen in the Tests.txt file.
 
+Additionally, the page was tested throughout different device sizes, including Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5, 6, 7, 8, 8Plus, X, iPad, iPad Pro and larger screens.
+
 ## Credits
 
 The format and style of this page was inspired through the contend and examples shown throughout the User Centric Frontend Development course.

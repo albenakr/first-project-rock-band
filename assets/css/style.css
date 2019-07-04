@@ -1,7 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700&display=swap');
 
 
+/* Fonts */
+
+.header-font-style {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #43484B;
+}
+
+.text-font-style {
+    font-family: 'Roboto+Condensed', sans-serif;
+    color: #596065;
+}
+
+
+
 /* Nav */
+
+.navbar-container {
+    width: 100vw;
+    background-color: transparent;
+}
+
+.navbar {
+    
+    
+}
+
+.navbar-nav li a {
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    
+}
 
 /* Cover photo */
 
@@ -13,7 +45,7 @@
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
-    height: 400px;
+    height: 100vh;
     margin-top: 50px;
 }
 
@@ -23,6 +55,7 @@
     width: 100vw;
     margin: 0;
     padding: 25px;
+    
 }
 
 .about-overview {
@@ -64,6 +97,7 @@
     margin: 0;
     padding: 25px;
     background-color: grey;
+    
 }
 
 .music-links {
@@ -109,6 +143,7 @@
     width: 100vw;
     margin: 0;
     padding: 25px;
+   
 }
 
 .contact-pitch {
@@ -131,6 +166,7 @@
 
 .album-covers {
     text-align: center;
+    
 }
 
 
@@ -138,9 +174,10 @@
     background: url("../images/album2.jpg");
     height: 160px;
     width: 160px;
-    opacity: 0.7;
+    opacity: 0.85;
     font-weight: 500;
     margin: 25px;
+    color: #fafafa;
 
 }
 
@@ -152,9 +189,10 @@
     background: url("../images/album.jpg");
     height: 160px;
     width: 160px;
-    opacity: 0.7;
+    opacity: 0.85;
     font-weight: 500;
     margin: 25px;
+    color: #fafafa;
 
 }
 
@@ -196,3 +234,4 @@ footer {
 
 
 /* Media Queries */
+
