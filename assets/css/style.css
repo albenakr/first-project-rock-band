@@ -21,6 +21,7 @@
 .navbar-container {
     width: 100vw;
     background-color: transparent;
+    
 }
 
 .navbar {
@@ -54,18 +55,19 @@
 #about {
     width: 100vw;
     margin: 0;
-    padding: 25px;
+    padding: 55px 25px 25px 25px;
     
 }
 
 .about-overview {
     text-align: center;
-
+    padding: 55px 10px 10px 10px;
+    
 }
 
 .profile-photos-list {
     display: inline-block;
-    padding: 0;
+    padding: 25px;
     margin: 0;
     text-align: center;
 }
@@ -95,7 +97,7 @@
 #music {
     width: 100vw;
     margin: 0;
-    padding: 25px;
+    padding: 55px 25px 25px 25px;
     background-color: grey;
     
 }
@@ -142,7 +144,7 @@
 #contact {
     width: 100vw;
     margin: 0;
-    padding: 25px;
+    padding: 55px 25px 25px 25px;
    
 }
 
@@ -160,7 +162,7 @@
 #albums {
     background-color: #fafafa;
     margin: 0;
-    padding: 25px;
+    padding: 55px 25px 25px 25px;
 
 }
 
