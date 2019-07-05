@@ -90,36 +90,34 @@
       </div>
     </div>
 
-    <div class="container-fluid ">
+    <div class="container-fluid music-links">
       <div class="row">
-        <div class="col">
-          <ul class="list-inline music-links">
-            <li class="list-inline-item col-md-6 col-lg-3 music-item">
-              <a href="assets/audio/SteppingStone.mp3" target="_blank">
+
+        <div class="col-sm-6 col-lg-3 music-item">
+          <a href="assets/audio/SteppingStone.mp3" target="_blank">
               <i class="fa fa-play" aria-hidden="true"><br>Stepping Stone</i>
               <span class="sr-only">Play</span>
               </a>
-            </li>
-            <li class="list-inline-item col-md-6 col-lg-3 music-item">
-              <a href="assets/audio/Clarksville.mp3" target="_blank">
+        </div>
+        <div class="col-sm-6 col-lg-3 music-item">
+          <a href="assets/audio/Clarksville.mp3" target="_blank">
               <i class="fa fa-play" aria-hidden="true"><br>Clarksville</i>
               <span class="sr-only">Play</span>
               </a>
-            </li>
-            <li class="list-inline-item col-md-6 col-lg-3 music-item">
-              <a href="assets/audio/DaydreamBeliever.mp3" target="_blank">
+        </div>
+        <div class="col-sm-6 col-lg-3 music-item">
+          <a href="assets/audio/DaydreamBeliever.mp3" target="_blank">
               <i class="fa fa-play" aria-hidden="true"><br>Daydream Believer</i>
               <span class="sr-only">Play</span>
               </a>
-            </li>
-            <li class="list-inline-item col-md-6 col-lg-3 music-item">
-              <a href="assets/audio/ImABeliever.mp3" target="_blank">
+        </div>
+        <div class="col-sm-6 col-lg-3 music-item">
+          <a href="assets/audio/ImABeliever.mp3" target="_blank">
               <i class="fa fa-play" aria-hidden="true"><br>I'm A Believer</i>
               <span class="sr-only">Play</span>
               </a>
-            </li>
-          </ul>
         </div>
+
       </div>
     </div>
   </section>
@@ -132,9 +130,39 @@
           <h1 class="header-font-style">Albums</h1>
         </div>
       </div>
+
       <div class="container-fluid album-covers">
         <div class="row">
-          <div class="col-sm-6 album-cover">
+          <div class="col-sm-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary header-font-style" data-toggle="modal" data-target="#exampleModal" id="button-modal-cover">
+            Greatest Hits </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title header-font-style" id="exampleModalLabel">Greatest Hites - Tracks List</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                  </div>
+                  <div class="modal-body text-font-style">
+                    1. Pink bird <br> 2.Crazy Monkees <br> 3. Midnight pain <br> 4. Five stages of grief <br> 5. Walk down the road <br>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary header-font-style" data-dismiss="modal">Close</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-sm-4">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-secondary header-font-style" data-toggle="modal" data-target="#exampleModal" id="button-modal-album">
             The Very Best of the Monkees </button>
@@ -160,11 +188,9 @@
                 </div>
               </div>
             </div>
-
           </div>
 
-          <div class="col-sm-6 album-cover">
-
+          <div class="col-sm-4">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary header-font-style" data-toggle="modal" data-target="#exampleModal" id="button-modal-album2">
             More Greastest Hits </button>
@@ -247,19 +273,19 @@
 
     <ul class="list-inline social-links">
       <li class="list-inline-item">
-        <a href="#" target="_blank">
+        <a href="https://www.facebook.com/TheMonkees/" target="_blank">
       <i class="fa fa-facebook" aria-hidden="true"></i>
       <span class="sr-only">Facebook</span>
     </a>
       </li>
       <li class="list-inline-item">
-        <a href="#" target="_blank">
+        <a href="https://twitter.com/themonkees?lang=en" target="_blank">
       <i class="fa fa-twitter" aria-hidden="true"></i>
       <span class="sr-only">Twitter</span>
     </a>
       </li>
       <li class="list-inline-item">
-        <a href="#" target="_blank">
+        <a href="https://www.youtube.com/user/themonkees" target="_blank">
       <i class="fa fa-youtube" aria-hidden="true"></i>
       <span class="sr-only">Youtube</span>
     </a>
