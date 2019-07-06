@@ -1,307 +1,278 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700&display=swap');
-
 body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
+
 
 /* Colors */
 
 .cyan-background-color {
-    background-color: #00b3b3;
+	background-color: #00b3b3;
 }
 
 .input-color {
-    background-color: #f2f2f2;
+	background-color: #f2f2f2;
 }
 
 
 /* Fonts */
 
 .header-font-style {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    color: #43484B;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	color: #43484B;
 }
 
 .text-font-style {
-    font-family: 'Roboto+Condensed', sans-serif;
-    color: #596065;
-    font-weight: 600;
+	font-family: 'Roboto+Condensed', sans-serif;
+	color: #596065;
+	font-weight: 600;
 }
 
-
 h1 {
-    text-align: center;
+	text-align: center;
 }
 
 
 /* Nav */
 
 .navbar-container {
-    width: 100vw;
-    background-color: #00b3b3;
-    max-height: 40px;
+	width: 100vw;
+	background-color: #00b3b3;
+	max-height: 40px;
 }
 
-
-
-
 .navbar-nav li a {
-    color: #000;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
 }
 
 
 /* Cover photo */
 
 .cover-photo {
-    background: url("../images/monkees.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    height: 100vh;
-    margin-top: 50px;
+	background: url("../images/monkees.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 100vh;
+	margin-top: 50px;
 }
+
 
 /* About */
 
 #about {
-    width: 100vw;
-    margin: 0;
-    padding: 55px 55px 45px 55px;
-
+	width: 100vw;
+	margin: 0;
+	padding: 55px 55px 45px 55px;
 }
 
 .about-overview {
-    text-align: center;
-    padding: 15px 10px 10px 10px;
-
-
+	text-align: center;
+	padding: 15px 10px 10px 10px;
 }
 
 .profile-photos-list {
-    display: inline-block;
-    padding: 25px;
-    margin: 0;
-    text-align: center;
+	display: inline-block;
+	padding: 25px;
+	margin: 0;
+	text-align: center;
 }
 
 .image-circle {
-    display: inline-block;
-    position: relative;
-    width: 180px;
-    height: 180px;
-    overflow: hidden;
-    border-radius: 50%;
-    transform: scale(.75);
+	display: inline-block;
+	position: relative;
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+	border-radius: 50%;
+	transform: scale(.75);
 }
-
 
 .profile-photo {
-    width: auto;
-    height: 100%;
-    margin-left: -53px;
+	width: auto;
+	height: 100%;
+	margin-left: -53px;
 }
-
 
 
 /* Music */
 
 #music {
-    width: 100%;
-    margin: 0;
-    padding: 55px 25px 25px 25px;
-    background-color: grey;
-    min-height: 500px;
-}
-
-.music-cards {
-    width: 100vw;
-   
+	width: 100%;
+	margin: 0;
+	padding: 55px 25px 25px 25px;
+	background-color: grey;
+	min-height: 400px;
+	vertical-align: middle;
 }
 
 .music-item {
-    display: inline-block;
-    text-align: center;
-    vertical-align: center;
-    background-color: #00cccc;
-    min-height: 135px;
-    min-width: 135px;
-    max-height: 135px;
-    max-width: 135px;
-    padding: 0;
-    margin: 25px;
-    border-radius: 4%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: center;
+	background-color: #00cccc;
+	min-height: 135px;
+	min-width: 135px;
+	max-height: 135px;
+	max-width: 135px;
+	padding: 0;
+	margin: 25px;
+	border-radius: 4%;
 }
 
 .music-item:hover {
-    background-color: #009999;
-    
+	background-color: #009999;
 }
 
 .music-item a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    
+	display: block;
+	text-decoration: none;
+	text-align: center;
 }
 
 .music-item a i {
-    color: #43484B;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    height: 85px;
-    width: 85px;
-    padding-top: 45px;
-
+	color: #43484B;
+	font-weight: 700;
+	text-decoration: none;
+	text-align: center;
+	height: 85px;
+	width: 85px;
+	padding-top: 45px;
 }
-
-
 
 
 /* Albums */
 
 #albums {
-    margin: 0;
-    padding: 55px 25px 25px 25px;
-    background-color: #f2f2f2;
-    min-height: 500px;
-    
-
+	margin: 0;
+	padding: 55px 25px 25px 25px;
+	background-color: #f2f2f2;
+	min-height: 500px;
+	overflow: hidden;
 }
 
 .album-covers {
-    text-align: center;
-    padding-top: 45px;
-
+	text-align: center;
+	padding-top: 45px;
 }
 
 #button-modal-cover {
-    background: url("../images/cover.jpg");
-    height: 160px;
-    width: 160px;
-    opacity: 0.85;
-    font-weight: 500;
-    margin: 25px;
-    color: #fafafa;
-
+	background: url("../images/cover.jpg");
+	height: 160px;
+	width: 160px;
+	opacity: 0.85;
+	font-weight: 500;
+	margin: 25px;
+	color: #fafafa;
 }
 
 #button-modal-cover:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 #button-modal-album {
-    background: url("../images/album2.jpg");
-    height: 160px;
-    width: 160px;
-    opacity: 0.85;
-    font-weight: 500;
-    margin: 25px;
-    color: #fafafa;
-
+	background: url("../images/album2.jpg");
+	height: 160px;
+	width: 160px;
+	opacity: 0.85;
+	font-weight: 500;
+	margin: 25px;
+	color: #fafafa;
 }
 
 #button-modal-album:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 #button-modal-album2 {
-    background: url("../images/album.jpg");
-    height: 160px;
-    width: 160px;
-    opacity: 0.85;
-    font-weight: 500;
-    margin: 25px;
-    color: #fafafa;
-
+	background: url("../images/album.jpg");
+	height: 160px;
+	width: 160px;
+	opacity: 0.85;
+	font-weight: 500;
+	margin: 25px;
+	color: #fafafa;
 }
 
 #button-modal-album2:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 
 /* Contact */
 
 #contact {
-    width: 100vw;
-    margin: 0;
-    padding: 55px 55px 45px 55px;
-
+	width: 100vw;
+	margin: 0;
+	padding: 55px 55px 45px 55px;
 }
 
 .contact-pitch {
-    font-size: 22px;
-    padding: 50px 25px 50px 25px;
+	font-size: 22px;
+	padding: 50px 25px 50px 25px;
 }
 
 .btn-contact {
-    float: right;
-    color: #00b3b3;
-    background-color: #596065;
+	float: right;
+	color: #00b3b3;
+	background-color: #596065;
 }
 
 .btn-contact:hover {
-    color: #f2f2f2;
-    background-color: #43484B;
+	color: #f2f2f2;
+	background-color: #43484B;
 }
 
 
 /* Footer - Social Links */
 
 footer {
-    background-color: grey;
-    min-height: 130px;
-    text-align: center;
-    padding-top: 40px;
-    margin: 0px;
-    height: 100%;
+	background-color: grey;
+	min-height: 130px;
+	text-align: center;
+	padding-top: 40px;
+	margin: 0px;
+	height: 100%;
 }
 
-
-
-
-
 .social-links li a i {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    padding: 15px 0;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    margin-left: 65px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	padding: 15px 0;
+	text-align: center;
+	color: #fafafa;
+	background: #8f8f8f;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	margin: 0px 15px;
 }
 
 .social-links li a i:hover {
-    background: #fafafa;
-    color: #8f8f8f;
+	background: #fafafa;
+	color: #8f8f8f;
 }
 
 
 /* Media Queries */
 
 @media (min-width: 768px) {
-    .about-overview {
-        text-align: center;
-        padding: 75px 10px 10px 10px;
-    }
-    
-    h1 {
-        text-align: left;
-    }
-
+	.about-overview {
+		text-align: center;
+		padding: 75px 10px 10px 10px;
+	}
+	h1 {
+		text-align: left;
+	}
 }

@@ -1,19 +1,17 @@
 # The Monkees | Rock Band
 
-This page was developed as the first milestone project for the Code Institute Fullstack Web Development course. 
-
-It is meant to showcast the skills learned in the first section of the course - User Centric Frontend Development. 
+This page was developed as the first milestone project for the Code Institute Fullstack Web Development course. It is meant to showcast the skills learned in the first section of the course - User Centric Frontend Development. 
 
 The webpage is meant to serve as an official website for the band 'The Monkees.' As the overall purpose of this project is educational, I wanted to create a page from scratch without drawing specific design or functionality inspiration from the official website of the band The Monkees or any other pages related to them.
 
 I developed the design for the page based only on the description of the assignment and the audio and image assets available for this project. The assumption was that this would most closely resemble an actual client assignment, in which there won't be any pre-existing websites, and visual designs.
  
-The overarching idea was the page would be appealing for both existing fans and page visitors, who are only now discovering the band. The about section is specifically aimed at anyone wanting an introduction or a reminder into the band's history and members. The rest of the page would be for both fans and newcomers, who would like to enjoy the band's music or get a reminder of their most popular albums. 
+The overarching idea was the page would be appealing to both existing fans and page visitors, who are only now discovering the band. The about section is specifically aimed at anyone wanting an introduction or a reminder into the band's history and members. The rest of the page would be for both fans and newcomers, who would like to enjoy the band's music or get a reminder of their most popular albums. My idea was for the website to service as a short and eyecatching portfolio for the band, that would make people contact them and hire them for events.
 
 
 ## Deployed Site 
 
-The deployed version of the page can be seen [here](https://www.google.com) **change link**
+The deployed version of the page can be seen [here](https://albenakr.github.io/first-project-rock-band/) 
 
 ## Technologies Used
 
@@ -27,9 +25,9 @@ The deployed version of the page can be seen [here](https://www.google.com) **ch
 
 The idea behind the overall design of the page was to provide an emersive experience, where each section is a small piece of discovering or re-discovering the band through its history or music. 
 
-I was aiming for simplistic design, which focuses the attention on the few key elements, rather than overflooding the page with too much information and imagery.
+I was aiming for simplistic design, which focuses the attention on the key elements, rather than overflooding the page with too much information and imagery. The styling was meant to be clean, straightforward, but also visually memorable.
 
-The goal was to create a page, which provides an interactive experience to the user, rather than simple outlay the information.
+Additionally, I wanted to create a page, which provides an interactive experience to the user, rather than a simple outlay the information.
 
 To do so, several overarching design decisions were made:
 
@@ -44,16 +42,17 @@ The page was, as expected from any modern web page, designed to be responsive an
 ### Wireframes
 
 
-
 ## Features
 
-The requirements of the assignment were to showcast the band's career and music, as well as the possibility to be hired for events.
+The requirements of the assignment were to showcast the band's career and music, as well as the possibility to be hired for events. The design of the different sections were guided by those requirements, as well as the available music and image files.
 
-The design of the different sections were guided by those requirements, as well as the available music and image files.
+The final version of the webpage provides the following sections:
+* About section: an overview of the band and its members;
+* Music section: where visitors can listen to some of their most famous tracks online;
+* Albums section: where visitors can browse through their most popular albums.
+* Contact form: to reach out to the band to hire them;
+* Footer section linking to their social medial profiles.
 
-The final version of the webpage provides an About section with an overview of the band for anyone discovering them now. It has a section, where visitors can listen to some of their most famous tracks, and learn more about their most popular albums.
-
-And lastly, the page includes a contact section, so that fans can hire the band for events.
 
 One feature, which could be added in the future, but is beyond the scope of this project is make the Contact form fully functional, so that all submissions are actually recorded.
 
