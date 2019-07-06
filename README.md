@@ -41,6 +41,9 @@ The page was, as expected from any modern web page, designed to be responsive an
 
 ### Wireframes
 
+1. [Mobile Wireframe](https://github.com/albenakr/first-project-rock-band/blob/master/wireframes/WireframeMobile.jpg) 
+
+2. [Mobile Wireframe](https://github.com/albenakr/first-project-rock-band/blob/master/wireframes/WireframeWeb.jpg)
 
 ## Features
 
