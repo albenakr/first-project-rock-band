@@ -115,16 +115,15 @@ h1 {
 /* Music */
 
 #music {
-    width: 100vw;
+    width: 100%;
     margin: 0;
     padding: 55px 25px 25px 25px;
     background-color: grey;
     min-height: 500px;
 }
 
-.music-links {
+.music-cards {
     width: 100vw;
-   text-align: center;
    
 }
 
@@ -175,6 +174,7 @@ h1 {
     padding: 55px 25px 25px 25px;
     background-color: #f2f2f2;
     min-height: 500px;
+    
 
 }
 
@@ -264,7 +264,10 @@ footer {
     text-align: center;
     padding-top: 40px;
     margin: 0px;
+    height: 100%;
 }
+
+
 
 
 
@@ -302,4 +305,3 @@ footer {
     }
 
 }
-

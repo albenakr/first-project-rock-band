@@ -1,12 +1,15 @@
 # The Monkees | Rock Band
 
-This page was developed as a milestone project for the Code Institute Fullstack Web Development course. 
+This page was developed as the first milestone project for the Code Institute Fullstack Web Development course. 
 
-It is meant to showcast the skills learned in the first section of the course - User Centric Frontend Development.
+It is meant to showcast the skills learned in the first section of the course - User Centric Frontend Development. 
 
-The webpage is the website for the band 'The Monkees.' It aims to showcast the band and their music and ultimately get them hired to play at events.
+The webpage is meant to serve as an official website for the band 'The Monkees.' As the overall purpose of this project is educational, I wanted to create a page from scratch without drawing specific design or functionality inspiration from the official website of the band The Monkees or any other pages related to them.
 
-My idea was to make the page interesting to both
+I developed the design for the page based only on the description of the assignment and the audio and image assets available for this project. The assumption was that this would most closely resemble an actual client assignment, in which there won't be any pre-existing websites, and visual designs.
+ 
+The overarching idea was the page would be appealing for both existing fans and page visitors, who are only now discovering the band. The about section is specifically aimed at anyone wanting an introduction or a reminder into the band's history and members. The rest of the page would be for both fans and newcomers, who would like to enjoy the band's music or get a reminder of their most popular albums. 
+
 
 ## Deployed Site 
 
@@ -22,12 +25,25 @@ The deployed version of the page can be seen [here](https://www.google.com) **ch
 
 ## UX
 
-The colors across the page were in slight variations of three main colors: grey, light grey and cyan. 
+The idea behind the overall design of the page was to provide an emersive experience, where each section is a small piece of discovering or re-discovering the band through its history or music. 
 
-The colours are consistent across the different sections, text, buttons, as well as input fields to create a more seemless user experience.
+I was aiming for simplistic design, which focuses the attention on the few key elements, rather than overflooding the page with too much information and imagery.
 
+The goal was to create a page, which provides an interactive experience to the user, rather than simple outlay the information.
+
+To do so, several overarching design decisions were made:
+
+* There is a lot of 'breathing space' between the sections, as well as each element in a given section. 
+
+* There is minimal text and a lot of the functionality is emphasized through icons or transitions. Examples of that would be the music links or the album covers, which reveal the content of the album once clicked.
+
+* The colors across the page were in slight variations of three main colors: grey, light grey and cyan. The colors were chosen to have two neutral ones, emphasizing the content within the sections, and one more bold colour - cyan - which would make the page a bit more memorable with a more unique and characteristic design. The colours are consistent across the different sections, text, buttons, as well as input fields to create a more seemless user experience.
+
+The page was, as expected from any modern web page, designed to be responsive and work equally well on both mobile and larger screens.
 
 ### Wireframes
+
+
 
 ## Features
 
